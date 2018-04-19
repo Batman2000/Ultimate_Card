@@ -9,10 +9,16 @@ The main class you use to contact with system.
 
 {\ttfamily \#include $<$Application.\+h$>$}
 
+Inheritance diagram for Application\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classApplication}
+\end{center}
+\end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-std\+::string \mbox{\hyperlink{classApplication_a5e74a6dd312571caae7ad5009ed80864}{get\+\_\+general\+\_\+information}} ()
+virtual std\+::string \mbox{\hyperlink{classApplication_ab53eea16f9023504def363a58eee2240}{get\+\_\+general\+\_\+information}} ()
 \begin{DoxyCompactList}\small\item\em A function with general info about person like name, birth date and gender. \end{DoxyCompactList}\item 
 std\+::string \mbox{\hyperlink{classApplication_ade6d895ba440d17e12b21baf93bc8312}{get\+\_\+medical\+\_\+information}} ()
 \begin{DoxyCompactList}\small\item\em A func about medical information like insurance number and blood\+\_\+type. \end{DoxyCompactList}\item 
@@ -37,11 +43,11 @@ All info about banks.
 \begin{DoxyReturn}{Returns}
 Returns u card\+\_\+number and individual taxes number 
 \end{DoxyReturn}
-\mbox{\Hypertarget{classApplication_a5e74a6dd312571caae7ad5009ed80864}\label{classApplication_a5e74a6dd312571caae7ad5009ed80864}} 
+\mbox{\Hypertarget{classApplication_ab53eea16f9023504def363a58eee2240}\label{classApplication_ab53eea16f9023504def363a58eee2240}} 
 \index{Application@{Application}!get\+\_\+general\+\_\+information@{get\+\_\+general\+\_\+information}}
 \index{get\+\_\+general\+\_\+information@{get\+\_\+general\+\_\+information}!Application@{Application}}
 \subsubsection{\texorpdfstring{get\+\_\+general\+\_\+information()}{get\_general\_information()}}
-{\footnotesize\ttfamily std\+::string Application\+::get\+\_\+general\+\_\+information (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+{\footnotesize\ttfamily virtual std\+::string Application\+::get\+\_\+general\+\_\+information (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
 
 
 
@@ -50,6 +56,10 @@ A function with general info about person like name, birth date and gender.
 \begin{DoxyReturn}{Returns}
 Returns all general info 
 \end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classApplication__gos__workers_ab9600d95a2de52c0b25a5f29c9da5cd5}{Application\+\_\+gos\+\_\+workers}}, and \mbox{\hyperlink{classApplication__usual__person_a6ea5c42c57eb422761d4b208eb8ffaca}{Application\+\_\+usual\+\_\+person}}.
+
 \mbox{\Hypertarget{classApplication_ade6d895ba440d17e12b21baf93bc8312}\label{classApplication_ade6d895ba440d17e12b21baf93bc8312}} 
 \index{Application@{Application}!get\+\_\+medical\+\_\+information@{get\+\_\+medical\+\_\+information}}
 \index{get\+\_\+medical\+\_\+information@{get\+\_\+medical\+\_\+information}!Application@{Application}}

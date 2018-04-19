@@ -1,0 +1,46 @@
+\begin{theindex}
+
+  \item {Application}, \hyperpage{5}
+    \subitem {get\+\_\+bank\+\_\+information}, \hyperpage{5}
+    \subitem {get\+\_\+general\+\_\+information}, \hyperpage{6}
+    \subitem {get\+\_\+medical\+\_\+information}, \hyperpage{6}
+  \item {Application\+\_\+gos\+\_\+workers}, \hyperpage{6}
+    \subitem {get\+\_\+general\+\_\+information}, \hyperpage{7}
+  \item {Application\+\_\+usual\+\_\+person}, \hyperpage{7}
+    \subitem {get\+\_\+general\+\_\+information}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Bank\+\_\+\+Decorator}, \hyperpage{8}
+    \subitem {get\+\_\+bank\+\_\+information}, \hyperpage{9}
+  \item {Base\+\_\+\+Card\+\_\+\+Decorator}, \hyperpage{9}
+
+  \indexspace
+
+  \item {General\+\_\+\+Info\+\_\+\+Decorator}, \hyperpage{10}
+    \subitem {get\+\_\+general\+\_\+information}, \hyperpage{10}
+  \item {get\+\_\+bank\+\_\+information}
+    \subitem {Application}, \hyperpage{5}
+    \subitem {Bank\+\_\+\+Decorator}, \hyperpage{9}
+  \item {get\+\_\+blood\+\_\+type}
+    \subitem {Medical\+\_\+\+Decorator}, \hyperpage{11}
+  \item {get\+\_\+general\+\_\+information}
+    \subitem {Application}, \hyperpage{6}
+    \subitem {Application\+\_\+gos\+\_\+workers}, \hyperpage{7}
+    \subitem {Application\+\_\+usual\+\_\+person}, \hyperpage{8}
+    \subitem {General\+\_\+\+Info\+\_\+\+Decorator}, \hyperpage{10}
+  \item {get\+\_\+medical\+\_\+information}
+    \subitem {Application}, \hyperpage{6}
+    \subitem {Medical\+\_\+\+Decorator}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Medical\+\_\+\+Decorator}, \hyperpage{11}
+    \subitem {get\+\_\+blood\+\_\+type}, \hyperpage{11}
+    \subitem {get\+\_\+medical\+\_\+information}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Smart\+\_\+\+Card}, \hyperpage{12}
+
+\end{theindex}
